@@ -1,0 +1,5 @@
+  File "/home/kyle/testWS/install/tb_control/lib/python3.8/site-packages/tb_control/tb_openLoop.py", line 29
+    if(!self.run_flag):
+       ^
+SyntaxError: invalid syntax
+

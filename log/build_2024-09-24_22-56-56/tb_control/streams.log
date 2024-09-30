@@ -1,0 +1,21 @@
+[0.723s] Invoking command in '/home/kyle/testWS/src/tb_control': PYTHONPATH=/home/kyle/testWS/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyle/testWS/install/tb_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_control build --build-base /home/kyle/testWS/build/tb_control/build install --record /home/kyle/testWS/build/tb_control/install.log --single-version-externally-managed install_data
+[0.865s] running egg_info
+[0.865s] writing ../../build/tb_control/tb_control.egg-info/PKG-INFO
+[0.865s] writing dependency_links to ../../build/tb_control/tb_control.egg-info/dependency_links.txt
+[0.865s] writing entry points to ../../build/tb_control/tb_control.egg-info/entry_points.txt
+[0.866s] writing requirements to ../../build/tb_control/tb_control.egg-info/requires.txt
+[0.866s] writing top-level names to ../../build/tb_control/tb_control.egg-info/top_level.txt
+[0.887s] reading manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.887s] writing manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.888s] running build_py
+[0.889s] running install
+[0.889s] running install_lib
+[0.890s] running install_data
+[0.890s] running install_egg_info
+[0.891s] removing '/home/kyle/testWS/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info' (and everything under it)
+[0.892s] Copying ../../build/tb_control/tb_control.egg-info to /home/kyle/testWS/install/tb_control/lib/python3.8/site-packages/tb_control-0.0.0-py3.8.egg-info
+[0.892s] running install_scripts
+[0.903s] Installing tb_openLoop script to /home/kyle/testWS/install/tb_control/lib/tb_control
+[0.904s] writing list of installed files to '/home/kyle/testWS/build/tb_control/install.log'
+[0.927s] Invoked command in '/home/kyle/testWS/src/tb_control' returned '0': PYTHONPATH=/home/kyle/testWS/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kyle/testWS/install/tb_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tb_control build --build-base /home/kyle/testWS/build/tb_control/build install --record /home/kyle/testWS/build/tb_control/install.log --single-version-externally-managed install_data

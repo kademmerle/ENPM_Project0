@@ -1,0 +1,138 @@
+[0.171s] Invoking command in '/home/kyle/testWS/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kyle/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/testWS/install/turtlebot3_fake_node
+[0.211s] -- The C compiler identification is GNU 9.4.0
+[0.246s] -- The CXX compiler identification is GNU 9.4.0
+[0.249s] -- Check for working C compiler: /usr/bin/cc
+[0.298s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.298s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.362s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.424s] -- Detecting CXX compiler ABI info
+[0.491s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Detecting CXX compile features
+[0.504s] -- Detecting CXX compile features - done
+[0.507s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.527s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.527s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.591s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.624s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.629s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.697s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.722s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[0.880s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.917s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.919s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.932s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.932s] -- Looking for pthread.h
+[0.991s] -- Looking for pthread.h - found
+[0.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.055s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.055s] -- Looking for pthread_create in pthreads
+[1.102s] -- Looking for pthread_create in pthreads - not found
+[1.102s] -- Looking for pthread_create in pthread
+[1.162s] -- Looking for pthread_create in pthread - found
+[1.163s] -- Found Threads: TRUE  
+[1.295s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.341s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.348s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[1.466s] -- Found turtlebot3_msgs: 2.2.1 (/home/kyle/testWS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.585s] -- Configuring done
+[1.594s] -- Generating done
+[1.595s] -- Build files have been written to: /home/kyle/testWS/build/turtlebot3_fake_node
+[1.602s] Invoked command in '/home/kyle/testWS/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kyle/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/testWS/install/turtlebot3_fake_node
+[1.605s] Invoking command in '/home/kyle/testWS/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kyle/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/testWS/build/turtlebot3_fake_node -- -j16 -l16
+[1.635s] [35m[1mScanning dependencies of target turtlebot3_fake_node[0m
+[1.671s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[3.878s] [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:[m[K In member function ‘[01m[Kvoid Turtlebot3Fake::init_parameters()[m[K’:
+[3.878s] [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:75:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.879s]    75 |   this->declare_parameter("joint_states_frame"[01;35m[K)[m[K;
+[3.879s]       |                                               [01;35m[K^[m[K
+[3.879s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.879s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.879s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.879s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+[3.879s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[3.879s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.879s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.879s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.879s] [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:76:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.879s]    76 |   this->declare_parameter("odom_frame"[01;35m[K)[m[K;
+[3.879s]       |                                       [01;35m[K^[m[K
+[3.880s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.880s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.880s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.880s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+[3.880s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[3.880s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.880s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.880s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.880s] [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:77:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.880s]    77 |   this->declare_parameter("base_frame"[01;35m[K)[m[K;
+[3.880s]       |                                       [01;35m[K^[m[K
+[3.880s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.880s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.880s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.880s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+[3.880s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[3.881s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.881s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.881s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.881s] [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:78:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.881s]    78 |   this->declare_parameter("wheels.separation"[01;35m[K)[m[K;
+[3.881s]       |                                              [01;35m[K^[m[K
+[3.881s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.881s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.881s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.881s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+[3.881s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[3.881s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.881s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.881s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.881s] [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:79:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.882s]    79 |   this->declare_parameter("wheels.radius"[01;35m[K)[m[K;
+[3.882s]       |                                          [01;35m[K^[m[K
+[3.882s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.882s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.882s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.882s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+[3.882s]                  from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[3.882s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.882s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.882s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.371s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[8.594s] [100%] Built target turtlebot3_fake_node
+[8.602s] Invoked command in '/home/kyle/testWS/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kyle/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kyle/testWS/build/turtlebot3_fake_node -- -j16 -l16
+[8.622s] Invoking command in '/home/kyle/testWS/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kyle/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/testWS/build/turtlebot3_fake_node
+[8.628s] -- Install configuration: ""
+[8.628s] -- Execute custom install script
+[8.629s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[8.636s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[8.642s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[8.649s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[8.656s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[8.662s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[8.669s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/rviz/model.rviz
+[8.675s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[8.681s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[8.688s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[8.694s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[8.701s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[8.708s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[8.714s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[8.720s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[8.727s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[8.734s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[8.741s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[8.746s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[8.752s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[8.759s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.765s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.771s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[8.776s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[8.782s] -- Symlinking: /home/kyle/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[8.790s] Invoked command in '/home/kyle/testWS/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kyle/testWS/install/turtlebot3_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kyle/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kyle/testWS/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kyle/testWS/build/turtlebot3_fake_node

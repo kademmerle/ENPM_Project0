@@ -1,0 +1,56 @@
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:[m[K In member function ‘[01m[Kvoid Turtlebot3Fake::init_parameters()[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:75:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   75 |   this->declare_parameter("joint_states_frame"[01;35m[K)[m[K;
+      |                                               [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:76:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   76 |   this->declare_parameter("odom_frame"[01;35m[K)[m[K;
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:77:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   77 |   this->declare_parameter("base_frame"[01;35m[K)[m[K;
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:78:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   78 |   this->declare_parameter("wheels.separation"[01;35m[K)[m[K;
+      |                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:79:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   79 |   this->declare_parameter("wheels.radius"[01;35m[K)[m[K;
+      |                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/include/turtlebot3_fake_node/turtlebot3_fake_node.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node/src/turtlebot3_fake_node.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K

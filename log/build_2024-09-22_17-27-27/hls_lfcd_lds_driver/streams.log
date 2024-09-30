@@ -1,0 +1,95 @@
+[0.030s] Invoking command in '/home/kyle/testWS/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/kyle/testWS/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/testWS/install/hls_lfcd_lds_driver
+[0.188s] -- The C compiler identification is GNU 9.4.0
+[0.255s] -- The CXX compiler identification is GNU 9.4.0
+[0.258s] -- Check for working C compiler: /usr/bin/cc
+[0.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.308s] -- Detecting C compiler ABI info
+[0.359s] -- Detecting C compiler ABI info - done
+[0.366s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.367s] -- Check for working CXX compiler: /usr/bin/c++
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.424s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Detecting CXX compile features
+[0.488s] -- Detecting CXX compile features - done
+[0.488s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.506s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.507s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.542s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.561s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.599s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.670s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.702s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.791s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.837s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.839s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.852s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.853s] -- Looking for pthread.h
+[0.914s] -- Looking for pthread.h - found
+[0.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.973s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.973s] -- Looking for pthread_create in pthreads
+[1.019s] -- Looking for pthread_create in pthreads - not found
+[1.019s] -- Looking for pthread_create in pthread
+[1.072s] -- Looking for pthread_create in pthread - found
+[1.072s] -- Found Threads: TRUE  
+[1.169s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.247s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[1.295s] -- Configuring done
+[1.301s] -- Generating done
+[1.302s] -- Build files have been written to: /home/kyle/testWS/build/hls_lfcd_lds_driver
+[1.309s] Invoked command in '/home/kyle/testWS/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/kyle/testWS/src/utils/hls_lfcd_lds_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/testWS/install/hls_lfcd_lds_driver
+[1.312s] Invoking command in '/home/kyle/testWS/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kyle/testWS/build/hls_lfcd_lds_driver -- -j16 -l16
+[1.341s] [35m[1mScanning dependencies of target hlds_laser_publisher[0m
+[1.373s] [ 50%] [32mBuilding CXX object CMakeFiles/hlds_laser_publisher.dir/src/hlds_laser_publisher.cpp.o[0m
+[3.554s] [01m[K/home/kyle/testWS/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.554s] [01m[K/home/kyle/testWS/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:148:33:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.554s]   148 |   node->declare_parameter("port"[01;35m[K)[m[K;
+[3.554s]       |                                 [01;35m[K^[m[K
+[3.554s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.554s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.554s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.554s]                  from [01m[K/home/kyle/testWS/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:35[m[K:
+[3.554s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.554s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.554s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.554s] [01m[K/home/kyle/testWS/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:149:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+[3.554s]   149 |   node->declare_parameter("frame_id"[01;35m[K)[m[K;
+[3.554s]       |                                     [01;35m[K^[m[K
+[3.554s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.554s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+[3.554s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.554s]                  from [01m[K/home/kyle/testWS/src/utils/hls_lfcd_lds_driver/src/hlds_laser_publisher.cpp:35[m[K:
+[3.555s] [01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.555s]   422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+[3.555s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[5.256s] [100%] [32m[1mLinking CXX executable hlds_laser_publisher[0m
+[5.411s] [100%] Built target hlds_laser_publisher
+[5.423s] Invoked command in '/home/kyle/testWS/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kyle/testWS/build/hls_lfcd_lds_driver -- -j16 -l16
+[5.445s] Invoking command in '/home/kyle/testWS/build/hls_lfcd_lds_driver': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kyle/testWS/build/hls_lfcd_lds_driver
+[5.451s] -- Install configuration: ""
+[5.452s] -- Execute custom install script
+[5.452s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/hlds_laser.launch.py
+[5.460s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/launch/view_hlds_laser.launch.py
+[5.467s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/rviz/hlds_laser.rviz
+[5.475s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/lib/hls_lfcd_lds_driver/hlds_laser_publisher
+[5.482s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/ament_index/resource_index/package_run_dependencies/hls_lfcd_lds_driver
+[5.490s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/ament_index/resource_index/parent_prefix_path/hls_lfcd_lds_driver
+[5.496s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.sh
+[5.503s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/ament_prefix_path.dsv
+[5.510s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.sh
+[5.518s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/environment/path.dsv
+[5.525s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.bash
+[5.533s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.sh
+[5.540s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.zsh
+[5.548s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/local_setup.dsv
+[5.554s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.dsv
+[5.561s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/ament_index/resource_index/packages/hls_lfcd_lds_driver
+[5.568s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.575s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.582s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig.cmake
+[5.589s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/cmake/hls_lfcd_lds_driverConfig-version.cmake
+[5.596s] -- Symlinking: /home/kyle/testWS/install/hls_lfcd_lds_driver/share/hls_lfcd_lds_driver/package.xml
+[5.606s] Invoked command in '/home/kyle/testWS/build/hls_lfcd_lds_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kyle/testWS/build/hls_lfcd_lds_driver

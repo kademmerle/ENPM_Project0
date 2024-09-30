@@ -1,0 +1,229 @@
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:[m[K In constructor ‘[01m[Krobotis::turtlebot3::Odometry::Odometry(std::shared_ptr<rclcpp::Node>&, double, double)[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:39:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   39 |   nh_->declare_parameter("odometry.frame_id"[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/opt/ros/galactic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:40:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   40 |   nh_->declare_parameter("odometry.child_frame_id"[01;35m[K)[m[K;
+      |                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/opt/ros/galactic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:42:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   42 |   nh_->declare_parameter("odometry.use_imu"[01;35m[K)[m[K;
+      |                                            [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/opt/ros/galactic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:43:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   43 |   nh_->declare_parameter("odometry.publish_tf"[01;35m[K)[m[K;
+      |                                               [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/opt/ros/galactic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::Odometry::joint_state_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:112:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  112 |   rclcpp::Duration duration(joint_state_msg->header.stamp.nanosec - last_time.nanoseconds()[01;35m[K)[m[K;
+      |                                                                                            [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/opt/ros/galactic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::Odometry::joint_state_and_imu_callback(const std::shared_ptr<const sensor_msgs::msg::JointState_<std::allocator<void> > >&, const std::shared_ptr<const sensor_msgs::msg::Imu_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:132:92:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+  132 |   rclcpp::Duration duration(joint_state_msg->header.stamp.nanosec - last_time.nanoseconds()[01;35m[K)[m[K;
+      |                                                                                            [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/opt/ros/galactic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/odometry.hpp:21[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/odometry.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::init_dynamixel_sdk_wrapper(const string&)[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:56:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   56 |   this->declare_parameter("opencr.id"[01;35m[K)[m[K;
+      |                                      [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:57:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   57 |   this->declare_parameter("opencr.baud_rate"[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:58:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   58 |   this->declare_parameter("opencr.protocol_version"[01;35m[K)[m[K;
+      |                                                    [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::add_motors()[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:116:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  116 |   this->declare_parameter("motors.profile_acceleration_constant"[01;35m[K)[m[K;
+      |                                                                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:117:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  117 |   this->declare_parameter("motors.profile_acceleration"[01;35m[K)[m[K;
+      |                                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::add_wheels()[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:134:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  134 |   this->declare_parameter("wheels.separation"[01;35m[K)[m[K;
+      |                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:135:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  135 |   this->declare_parameter("wheels.radius"[01;35m[K)[m[K;
+      |                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:[m[K In member function ‘[01m[Kvoid robotis::turtlebot3::TurtleBot3::add_sensors()[m[K’:
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:145:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  145 |   this->declare_parameter("sensors.bumper_1"[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:146:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  146 |   this->declare_parameter("sensors.bumper_2"[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:148:49:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  148 |   this->declare_parameter("sensors.illumination"[01;35m[K)[m[K;
+      |                                                 [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:150:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  150 |   this->declare_parameter("sensors.ir"[01;35m[K)[m[K;
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:152:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+  152 |   this->declare_parameter("sensors.sonar"[01;35m[K)[m[K;
+      |                                          [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/include/turtlebot3_node/turtlebot3.hpp:22[m[K,
+                 from [01m[K/home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_node/src/turtlebot3.cpp:17[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K

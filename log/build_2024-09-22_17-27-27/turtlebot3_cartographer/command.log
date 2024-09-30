@@ -1,0 +1,6 @@
+Invoking command in '/home/kyle/testWS/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/testWS/install/turtlebot3_cartographer
+Invoked command in '/home/kyle/testWS/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/kyle/testWS/src/turtlebot3/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kyle/testWS/install/turtlebot3_cartographer
+Invoking command in '/home/kyle/testWS/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kyle/testWS/build/turtlebot3_cartographer -- -j16 -l16
+Invoked command in '/home/kyle/testWS/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kyle/testWS/build/turtlebot3_cartographer -- -j16 -l16
+Invoking command in '/home/kyle/testWS/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kyle/testWS/build/turtlebot3_cartographer
+Invoked command in '/home/kyle/testWS/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kyle/testWS/build/turtlebot3_cartographer
